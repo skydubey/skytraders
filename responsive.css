@@ -1,0 +1,167 @@
+@media only screen and (min-width: 220px) and (max-width: 991px) {
+
+
+
+
+
+
+    /* ---------------------------------------- Home Page ---------------------------------------- */
+
+
+
+    /* -- ----------- Start Of Navigation Bar ----------- -- */
+
+
+    /* For Navbar Right Side Text */
+
+    #navbar_text {
+        display: block;
+        color: aqua;
+        display: none;
+    }
+
+    .navbar-brand {
+        font-size: 2rem;
+        color: aqua;
+        margin-right: 1rem;
+    }
+
+    /* For Register and Login Button Container */
+
+    .register_container {
+        margin-right: 25px;
+        display: flex;
+        justify-content: center;
+    }
+
+    /* For All Buttons */
+
+    .btn {
+        border: 2px solid white;
+        border-radius: 20px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+
+    .btn:hover {
+        border-color: aquamarine;
+
+    }
+
+
+    /* For Navigation Links */
+
+    /* For Navbar Toggler */
+
+    .navbar-dark .navbar-toggler {
+        /* border:2px solid #ffffff; */
+        /* color: white; */
+        border-radius: 10px;
+        color:aquamarine ;
+       
+
+    }
+    .navbar-dark .navbar-toggler:active{
+        box-shadow: 0.08rem;
+        color:aquamarine ;
+    }
+
+    #a1,
+    #a2,
+    #a3,
+    #a4 {
+        margin-top: 15px;
+    }
+
+    #a1 {
+        border: 2px solid transparent;
+        border-radius: 20px;
+        color: aquamarine;
+    }
+
+    #a2,
+    #a3,
+    #a4 {
+        color: white;
+        border: 2px solid transparent;
+        border-radius: 20px;
+    }
+
+    #a1,
+    #a2,
+    #a3,
+    #a4 {
+        margin-right: 15px;
+        padding: 9px;
+        text-align: center;
+    }
+
+
+
+    #a2:hover,
+    #a3:hover,
+    #a4:hover {
+        border: 2px solid transparent;
+        border-radius: 20px;
+        /* transition: 0.5s ease; */
+        color: aquamarine;
+
+    }
+
+
+
+    /* For Dropdown Menu of Charts and More Section */
+
+    .navbar-nav .dropdown-menu {
+        position: static;
+        border-radius: 10px;
+        margin-top: 5px;
+    }
+
+    /* -- ----------- End Of Navigation Bar ----------- -- */
+
+   
+
+    /* For Cards Section */
+
+    .cards {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        margin: 20px 0px;
+        border-radius: 15px;
+        border: 2px solid #0d6efd;
+    }
+
+
+
+    /* For Footer Section */
+
+    .footer,.footimgdiv{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footpara{
+        font-size: 1rem;
+    }
+
+    .socialicons{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+
+
+    /* ---------------------------------------- End Of Home Page ---------------------------------------- */
+}
